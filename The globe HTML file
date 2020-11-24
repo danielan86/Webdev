@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>Enter site title</h1>
+      <h4>Enter site slogan</h4>
+    </div>
+
+    <div class="nav">
+      <ul class="nav_links">
+        <li><a href="#"> Home</a></li>
+        <li><a href="#"> Contact</a></li>
+        <li><a href="#"> New Page 1</a></li>
+        <li><a href="#"> New Page 2</a></li>
+        <li><a href="#"> New Page 3</a></li>
+        <li><a href="#"> New Page 4</a></li>
+      </ul>
+    </div>
+
+
+
+    <div class="main_menu_block">
+
+      <div class="main_menu">
+        <h3>Main Menu</h3>
+        <ul>
+          <li><a href="#"> Menu Item 1</a></li>
+          <li><a href="#"> Menu Item 2</a></li>
+          <li><a href="#"> Menu Item 3</a></li>
+          <li><a href="#"> Menu Item 4</a></li>
+          <li><a href="#"> Menu Item 5</a></li>
+          <li><a href="#"> Menu Item 6</a></li>
+          <li><a href="#"> Menu Item 7</a></li>
+          <li><a href="#"> Menu Item 8</a></li>
+          <li><a href="#"> Menu Item 9</a></li>
+
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>Block</h3>
+        <p>Enter Block content here...</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero sunt magni aliquam fuga placeat nemo
+          praesentium, dolorum autem explicabo natus facilis assumenda, a asperiores sequi, recusandae possimus iure
+          voluptates dignissimos!</p>
+      </div>
+
+    </div>
+
+    <div class="general">
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+          Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+          Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+          source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+          of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+          during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32.</p>
+      </div>
+      <div class="meniu_butoane">
+
+        <div class="subscription">
+          <h2>Subscription</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloremque rerum itaque id aliquam atque
+            minus officia, delectus laborum mollitia deserunt beatae nobis praesentium ducimus assumenda sint eos?
+            Excepturi, harum.</p>
+          <button class="btn">Read more</button>
+        </div>
+
+        <div class="other_services">
+          <h2>Other services</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, doloremque rerum itaque id aliquam atque
+            minus officia, delectus laborum mollitia deserunt beatae nobis praesentium ducimus assumenda sint eos?
+            Excepturi, harum.</p>
+          <button class="btn">Read more</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>Copyright @ 2020</p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
