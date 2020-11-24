@@ -1,0 +1,330 @@
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* box sizing (for better width calculations) */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  /* for rem calculations */
+  /* rem is percent of html font-size */
+  font-size: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5; /* 1.5 x element font-size*/
+  font-weight: 400;
+  background-color: #eee;
+  color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(151, 169, 173);
+  
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.8rem;
+}
+h3{
+  font-size: 2.6rem;
+}
+h4{
+  font-size: 2.4rem;
+}
+h5{
+  font-size: 2.2rem;
+}
+h6{
+  font-size: 2rem;
+}
+p {
+  margin: 1rem 0;
+}
+a, a:visited{
+  color: rgb(151, 169, 173);
+  text-decoration: none;
+  cursor: pointer;
+  padding:0rem;
+}
+a:hover{
+  color: green;
+}
+
+ul, ol {
+  padding: 0 0 0 2rem;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
+ul li,
+ol li {
+  margin-left: 2rem;
+}
+
+button {
+   appearance: none;
+   outline: none;
+}
+
+
+::-webkit-input-placeholder {
+  color: #444; 
+  opacity: 0.5; 
+}
+
+ 
+button {
+  display: flex;
+  align-items: flex-end ;
+  border: 2px solid rgb(50, 60, 62);
+  color: rgb(50, 60, 62);
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: rgb(151, 169, 173);
+  
+}
+button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #000;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0,0,0,0.5);
+}
+
+/* clearfixes for parents of floated children */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* my custom css */
+
+
+body{
+  background-color:rgb(32, 42, 44);
+  line-height: 2; 
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url(./the_globe.jpg);
+  width: 100%;
+  min-height:280px;
+  top:1rem;
+  padding-left:8rem;
+  padding-right:8rem;
+  /* object-fit: cover; */
+  object-position:top;
+  margin-bottom:1rem;
+  margin-top:3rem;
+  justify-content: center;
+}
+
+.text{
+  color:rgb(151, 169, 173);
+}
+.nav{ 
+  display:flex;
+  flex-direction: column;
+  border-right: 0rem;
+  padding-bottom: 3rem;
+  width: 80vw;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.nav_links {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:rgb(50, 60, 62);
+  transition:all 0.3s ease;
+  width: 100%;
+  padding-right: 2rem;
+  padding-bottom:1rem;
+  padding-top:1rem;
+}
+
+.nav_links li{
+  border-left: 0.2rem solid rgb(151, 169, 173);
+  align-items: center;
+  padding-top: 0rem;
+  line-height: 1.5rem;
+  padding-left: 4rem;
+  text-align: left;
+}
+.nav_links li:first-child{
+  border-left: none;
+  padding-left: 0px0;
+  margin-left: 0px;
+}
+
+.main_menu_block{
+  width:30%;
+  padding-bottom: 2rem;
+}
+
+.main_menu ul {
+  list-style-type:"x  ";
+  color:rgb(151, 169, 173);
+  transition:all 0.3s ease;
+  padding-left:0rem;
+}
+
+.main_menu h3{
+  padding-left: 1rem;
+}
+
+.block{
+  padding-left: 1rem;
+  margin-top:3rem;
+}
+
+.main_menu,.block h3{
+  padding-left: 2rem;
+}
+
+.general {
+  width: 70%;
+  padding-left: 3rem;
+  margin-top:0rem;
+}
+
+.gallery{
+  padding-left: 3rem;
+}
+
+.gallery p{
+  border-top: 0.2rem solid rgb(151, 169, 173);
+  padding-top: 2rem;
+}
+
+.meniu_butoane{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:0rem;
+  margin-top:0rem;
+}
+
+.meniu_butoane:first-child {
+  flex: 1 1 100%;
+}
+
+.subscription{
+  margin-bottom: 0rem;
+  padding-right: 2rem;
+}
+
+.subscription, .other_services{
+  padding-left: 3rem;
+}
+
+.other_services{
+  border-left: 0.2rem solid rgb(151, 169, 173);
+}
+
+.subscription, .other_services h2{
+  padding-top:0rem;
+  align-self: flex-start;
+  margin-bottom:auto;
+}
+
+
+
+@media  (max-width:600px) { 
+  .container{ 
+     display:flex;
+     flex-wrap:wrap;
+     justify-content: space-between;
+     align-items: left;
+     overflow: hidden;
+}
+  .nav_links{
+    flex-direction: column;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+  }
+
+  .meniu_butoane{
+    flex-direction: column;
+    margin-right: auto;
+    width: clamp(200px, 50%, 20rem);
+    width: 100%;
+  }
+}
