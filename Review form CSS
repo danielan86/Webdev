@@ -1,0 +1,346 @@
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* box sizing (for better width calculations) */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  /* for rem calculations */
+  /* rem is percent of html font-size */
+  font-size: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5; /* 1.5 x element font-size*/
+  font-weight: 400;
+  background-color: #ffffff;
+}
+  
+  /* CSS reset */
+
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin:  0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  
+  /* box sizing (for better width calculations) */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+  }
+  
+  html {
+    /* for rem calculations */
+    /* rem is percent of html font-size */
+    font-size: 10px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5; /* 1.5 x element font-size*/
+    font-weight: 400;
+    background-color: #000;
+    color: #666;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: pink;
+    margin: 2rem 0;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2.8rem;
+  }
+  h3{
+    font-size: 2.6rem;
+  }
+  h4{
+    font-size: 2.4rem;
+  }
+  h5{
+    font-size: 2.2rem;
+  }
+  h6{
+    font-size: 2rem;
+  }
+  p {
+    margin: 1rem 0;
+  }
+ 
+ 
+  
+  ul, ol {
+    padding: 0 0 0 2rem;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  ol {
+    list-style-type: lower-latin;
+  }
+  ul li,
+  ol li {
+    margin-left: 2rem;
+  }
+  
+ 
+  
+  /* clearfixes for parents of floated children */
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+  }
+  
+  
+  
+
+
+
+
+  /* my custom css */
+  
+ 
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  text-align: center;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.8rem;
+}
+h3{
+  font-size: 2.6rem;
+}
+h4{
+  font-size: 2.4rem;
+}
+h5{
+  font-size: 2.2rem;
+}
+h6{
+  font-size: 2rem;
+}
+p {
+    color:#808080;
+    margin: 1;
+    font-size: 2rem;
+}
+
+p:hover{
+  color:white;
+  text-decoration: none;
+  padding:0;
+}
+
+
+
+ul, ol {
+  padding: 0 0 0 2rem;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: lower-latin;
+}
+ul li,
+ol li {
+  margin-left: 2rem;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    align-content:center;
+    
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90vw;
+    line-height: 2;
+    gap: 3rem;
+}
+
+main{
+ padding-bottom: 2rem;
+}
+
+.paragraph_one{
+  color:#808080;
+  text-align: center;  
+}
+
+.paragraph_one:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.custommer_review {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.customer_review_top{
+    display: flex;
+    justify-content: space-between; 
+    background-color:rgb(66, 70, 72);
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-align: left;
+    margin: 0;  
+    align-items: center;
+}
+
+.review_stars {
+    float: right;
+    color: darkgray;
+    white-space: nowrap;
+    
+}
+
+.checked {
+  color: orange;
+}
+
+.customer_comment {
+    background-color:rgb(49, 54, 58);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+
+ 
