@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>24/7 First-Class Support</h1>
+            <p class="paragraph_one">Customer satisfaction is our top priority. Should you
+                face any problem or simply have a question, don't
+                hesitate to contact us anytime. <br>We're always there to help!</p>
+        </div>
+
+        <div class="main">
+            <div class="custommer_review">
+                <div class="customer_review_top">
+                    <p><b>Edersp91</b></p>
+                    <div class="review_stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="customer_comment">
+                    <p>The quality and design of the theme is perfect. It is easy to customize as
+                        much as you want. If you
+                        have any problem (design, installation, whatever the problem is) the support team will answer
+                        you
+                        really quick and they will solve all your problems. Trust me, I bought several themes and this
+                        is by
+                        far the best support I had had. Congratulations for the work and your professionalism!</p>
+                </div>
+            </div>
+
+            <div class="custommer_review">
+                <div class="customer_review_top">
+                    <p><b>Finita</b></p>
+                    <div class="review_stars"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+
+                <div class="customer_comment">
+                    <p>Very quick to respond and help. One of my best purchases on Themeforest. Buy
+                        with confidence. One
+                        very happy customer here.</p>
+                </div>
+            </div>
+
+            <div class="custommer_review">
+                <div class="customer_review_top">
+                    <p><b>gogogo9</b></p>
+                    <div class="review_stars"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="customer_comment">
+                    <p>I love this theme, it has a clean layout and is smooth when loading. Customer
+                        support is fantastic
+                        with responses received within 24 hours. Higly recommended!</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
